@@ -1,0 +1,25 @@
+.remaining{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    background-color:#cfead6 ;
+    color:#3e5f47;
+    border-radius: 5px;
+    width: 30%;
+}
+@media  (max-width : 830px) {
+    .remaining{
+        width:28% ;
+    }
+}
+@media  (max-width : 550px) {
+    .remaining{
+        width:25% ;
+    }
+}
+@media  (max-width : 400px) {
+    .remaining{
+        width:93% ;
+        margin-bottom: 10px;
+    }
+}

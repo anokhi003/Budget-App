@@ -1,0 +1,24 @@
+.expense_total{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    background-color:#c4e1ff ;
+    color:#2b4a71;
+    border-radius: 5px;
+    width: 30%;
+}
+@media  (max-width : 830px) {
+    .expense_total{
+        width:28% ;
+    }
+}
+@media  (max-width : 550px) {
+    .expense_total{
+        width:25% ;
+    }
+}
+@media  (max-width : 400px) {
+    .expense_total{
+        width:93% ;
+    }
+}

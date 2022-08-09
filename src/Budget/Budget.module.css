@@ -1,0 +1,40 @@
+.budget_value{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    align-items: center;
+    background-color:#dddfe0 ;
+    border-radius: 5px;
+   width: 30%;
+}
+.BudgetInput{
+    background-color: transparent;
+    border: 0.5px solid #c2c2c2;
+    border-radius: 5px;
+    padding: 5px 0;
+    max-width: 80px;
+    font-size: 16px;
+}
+.budgetValue{margin:0px 0 9px 0}
+.button{margin-right:20px}
+/* .active{
+    display:block;
+}
+.none{display: none;} */
+@media  (max-width : 830px) {
+    .budget_value{
+        width:28% ;
+    }
+}
+@media  (max-width : 550px) {
+    .budget_value{
+        width:25% ;
+    }
+}
+@media  (max-width : 400px) {
+    .budget_value{
+        width:93% ;
+        margin-bottom: 10px;
+        padding: 3px 12px;
+    }
+}
